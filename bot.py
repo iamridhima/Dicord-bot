@@ -3,10 +3,7 @@ import random
 
 # Predefined responses for the trigger word
 trigger_responses = {
-    "jheu lagyo": ["Padhna jauu", "Malai pani", "Hya hami 3rd year ma khatra huni ho"],
-    "janu":["koder nibida", "nibida proo"],
-    "bhattu":["bhattu ek number ko alchhi","Bhattu sutira hola pakkai","bhattu padhna jauu"],
-    "gujju":["topper gujju", "yo sem ni 80 hanchhu","dheraiii burnt out nabhau"],
+    "Hello there": ["Hello don't waste your time, go to study"],
 }
 
 # Define the intents
@@ -37,4 +34,4 @@ async def on_message(message):
             break  # Break out of the loop after sending a response
 
 # Run the bot with its token
-client.run('MTIxMTY2MDgwOTYwNDk1NjE5MQ.GuOVfQ.2frz38kWxI24BATfc6UDtPrTO8Eh1mFl0YX1eQ')
+client.run('add your token')
